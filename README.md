@@ -1,7 +1,7 @@
 <h1 align=center>
 Working with <i>Latest Chromium Beta Source Code</i>
 </h1>
-<h2  align=left><p>We designed OpenWebRuntime to work in sync with the latest Chromium Stable Source Code for Chromium Beta Version. To do this, you need to refer to the 
+<h2  align=left><p>We designed OpenWebRuntime to work in sync with the latest Chromium Beta Source Code for Chromium Beta Version. To do this, you need to refer to the 
 <div align=center>
 
 [**Building Chromium for Windows**](https://chromium.googlesource.com/chromium/src/+/main/docs/windows_build_instructions.md)</div>
