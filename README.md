@@ -26,7 +26,7 @@ Unzip the Patch zip you downloaded.</p>
 
 <h1 align=center>
 
-How to Use <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Canary/blob/main/ChromiumVer.txt)</i>
+How to Use <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>
 </h1>
 <h2><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 106.0.5249.99.</p>
 </h2>
@@ -51,7 +51,7 @@ The role of GetBranch is to create a new source code branch based on the Tag val
 
 <h2 align=center>
 
-How to Use <i>[GetWebRTbranch.Bat](https://github.com/TangramDev/WebRT_Chromium_Canary/blob/main/ChromiumSRC/getWebRTbranch.bat)</i>
+How to Use <i>[GetWebRTbranch.Bat](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumSRC/getWebRTbranch.bat)</i>
 
 <p align=left>
 
@@ -60,7 +60,7 @@ How to Use <i>[GetWebRTbranch.Bat](https://github.com/TangramDev/WebRT_Chromium_
 
 <h1 align=center>
 
-Merge the [Chromium WebRT Patch](https://github.com/TangramDev/WebRT_Chromium_Canary/archive/refs/heads/main.zip) into your <i>Chromium Project Source Code</i>
+Merge the [Chromium WebRT Patch](https://github.com/TangramDev/WebRT_Chromium_Beta/archive/refs/heads/main.zip) into your <i>Chromium Project Source Code</i>
 </h1>
 <h2 align=center>
 <p align=left>
@@ -69,7 +69,7 @@ Merge the [Chromium WebRT Patch](https://github.com/TangramDev/WebRT_Chromium_Ca
 
 <div align=left>
 	
-Unzip the [Chromium WebRT Patch Archive](https://github.com/TangramDev/WebRT_Chromium_Canary/archive/refs/heads/main.zip), and then copy all the batch files in it to the chromium source code folder, as shown in the following figure:	
+Unzip the [Chromium WebRT Patch Archive](https://github.com/TangramDev/WebRT_Chromium_Beta/archive/refs/heads/main.zip), and then copy all the batch files in it to the chromium source code folder, as shown in the following figure:	
 </div>
 
 <div align=center><img src="https://user-images.githubusercontent.com/26355688/195234682-9a78ef26-6e19-47b9-85ed-5019241e4327.png" width="75%"/></div>
