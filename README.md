@@ -106,6 +106,6 @@ WebRuntime based on a <i>Specific Chromium Project Beta Version: 107.0.5304.x</i
 <p>Execute the following command:
 	
 	$ ..\getWebRTbranch 107.0.5304.x 107.0.5304.y WebRTBase
-Here, 107.0.5304.y comes from [<i>ChromiumVer.txt</i>](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt), WebRTBase is the source code branch that supports WebRuntime created in the above steps, and x is an integer.
+Here, WebRTBase is the source code branch that supports WebRuntime created in the above steps, and x is an integer, you will obtain a branch with webruntime support you expected.
 </p>
 </h2>
