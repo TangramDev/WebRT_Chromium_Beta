@@ -28,7 +28,7 @@ Unzip the Patch zip you downloaded.</p>
 
 How to Use <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>
 </h1>
-<h2><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 106.0.5249.99.</p>
+<h2><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 107.0.5304.34.</p>
 </h2>
 
 
