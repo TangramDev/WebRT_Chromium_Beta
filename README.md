@@ -89,7 +89,7 @@ as shown in the following figure:</p>
 </p>
 <p>
 	
-Here, "107.0.5304.a" is the Tag value contained in <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>, and WebRTBase is the branch name of "WebRT Base Branch"</p>
+Here, "<ins>107.0.5304.a</ins>" is the Tag value contained in <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>, and WebRTBase is the branch name of "WebRT Base Branch"</p>
 
 <p>Copy the folder "ChromiumSRC\src" (this folder is included in the unzipped folder of Chromium WebRT Patch) to "d:\WebRT\M108\src", execute the following command:
 	
