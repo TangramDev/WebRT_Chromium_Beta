@@ -28,7 +28,7 @@ Unzip the Patch zip you downloaded.</p>
 
 About <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>
 </h1>
-<h2><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 107.0.5304.34.</p>
+<h2><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 108.0.5359.22.</p>
 </h2>
 
 
@@ -89,7 +89,7 @@ as shown in the following figure:</p>
 </p>
 <p>
 	
-Here, "<ins>107.0.5304.a</ins>" is the Tag value contained in <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>, and WebRTBase is the branch name of "WebRT Base Branch"</p>
+Here, "<ins>108.0.5359.a</ins>" is the Tag value contained in <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>, and WebRTBase is the branch name of "WebRT Base Branch"</p>
 
 <p>Copy the folder "ChromiumSRC\src" (this folder is included in the unzipped folder of Chromium WebRT Patch) to "d:\WebRT\M108\src", execute the following command:
 	
@@ -100,7 +100,7 @@ Here, "<ins>107.0.5304.a</ins>" is the Tag value contained in <i>[ChromiumVer.tx
 
 <h1 align=center>
 
-WebRuntime based on<br/> a <i>Specific Chromium Project Beta Version: 107.0.5304.x</i>
+WebRuntime based on<br/> a <i>Specific Chromium Project Beta Version: 108.0.5359.x</i>
 </h1>
 <h2>
 <p>Execute the following command:
