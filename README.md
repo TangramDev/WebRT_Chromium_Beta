@@ -1,5 +1,5 @@
 <h1 align=center>
-Working with <i>Latest Chromium Beta Source Code</i>
+Working with <i>Latest Chromium Beta Source Code</i><br><i><ins>Version: 108.0.5359.x</ins></i>(x>=24)
 </h1>
 <h2  align=left><p>
 
@@ -28,7 +28,7 @@ Unzip the Patch zip you downloaded.</p>
 
 About <i>[ChromiumVer.txt](https://github.com/TangramDev/WebRT_Chromium_Beta/blob/main/ChromiumVer.txt)</i>
 </h2>
-<h3><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 108.0.5359.22.</p>
+<h3><p>Each Chromium WebRT Patch contains a file "ChromiumVer.txt" to specify the Tag of the Chromium Project version corresponding to the Patch, for example: 108.0.5359.24.</p>
 </h3>
 
 
