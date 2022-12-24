@@ -12159,34 +12159,12 @@ void RenderFrameHostImpl::SendCommitNavigation(
     }
   }
 
-  blink::mojom::BackForwardCacheNotRestoredReasonsPtr not_restored_reasons;
-  // Only populate the web-exposed NotRestoredReasons when needed by the
-  // NotRestoredReasons API, i.e. for cross-document main frame history
-  // navigations that are not served by back/forward cache.
-  if (IsBackForwardCacheEnabled() &&
-      !navigation_request->IsServedFromBackForwardCache() &&
-      BackForwardCacheMetrics::IsCrossDocumentMainFrameHistoryNavigation(
-          navigation_request)) {
-    if (NavigationEntryImpl* entry = static_cast<NavigationEntryImpl*>(
-            navigation_request->GetNavigationEntry())) {
-      if (auto* metrics = entry->back_forward_cache_metrics()) {
-        // Update NotRestoredReasons to include additional reasons only known at
-        // commit time, before reporting to the renderer.
-        metrics->UpdateNotRestoredReasonsForNavigation(navigation_request,
-                                                       /*before_commit=*/true);
-        if (base::FeatureList::IsEnabled(
-                blink::features::kBackForwardCacheSendNotRestoredReasons)) {
-          // Only populate the web-exposed NotRestoredReasons when needed by the
-          // NotRestoredReasons API, i.e. for cross-document main frame history
-          // navigations that are not served by back/forward cache.
-          not_restored_reasons = metrics->GetWebExposedNotRestoredReasons();
-        }
-      }
-    }
-  }
   // Save the last sent NotRestoredReasons value for testing, so that we can
   // verify them in tests.
-  not_restored_reasons_for_testing_ = not_restored_reasons.Clone();
+  // TODO(yuzus): Remove |not_restored_reasons_for_testing_| and modify
+  // |FrameNavigateParamsCapturer|.
+  not_restored_reasons_for_testing_ =
+      commit_params->not_restored_reasons.Clone();
 
   commit_params->commit_sent = base::TimeTicks::Now();
   navigation_client->CommitNavigation(
@@ -12199,7 +12177,6 @@ void RenderFrameHostImpl::SendCommitNavigation(
       devtools_navigation_token, permissions_policy,
       std::move(policy_container), std::move(code_cache_host),
       std::move(cookie_manager_info), std::move(storage_info),
-      std::move(not_restored_reasons),
       BuildCommitNavigationCallback(navigation_request));
   base::UmaHistogramTimes(
       base::StrCat({"Navigation.SendCommitNavigationTime.",
